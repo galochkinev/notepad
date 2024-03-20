@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://dlckw2o4whqk5"]
+
+[node name="Help" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bg" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.196078, 0.196078, 0.196078, 1)
+
+[node name="header" type="ColorRect" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.0447531
+grow_horizontal = 2
+color = Color(0.0980392, 0.0980392, 0.0980392, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="menu" type="HBoxContainer" parent="bg/header"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="btn_exit" type="Button" parent="bg/header/menu"]
+layout_mode = 2
+focus_mode = 0
+text = "Назад"
+
+[node name="name" type="Label" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0101562
+anchor_top = 0.0763889
+anchor_right = 0.960938
+anchor_bottom = 0.294444
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "Название работы: Секретный Блокнот"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="authors" type="Label" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0101562
+anchor_top = 0.280556
+anchor_right = 0.960938
+anchor_bottom = 0.498611
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "Авторы: Галочкин Егор, Туманов Никита, Саакян Артур"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="group" type="Label" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0101562
+anchor_top = 0.586111
+anchor_right = 0.960938
+anchor_bottom = 0.804167
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "Группа: ИС-41"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="version" type="Label" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0101562
+anchor_top = 0.761111
+anchor_right = 0.960938
+anchor_bottom = 0.979167
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "Версия: 1.0"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
