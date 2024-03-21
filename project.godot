@@ -10,12 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Notepad"
+config/name="ZebraPad"
 run/main_scene="res://windows/main/main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
+boot_splash/bg_color=Color(1, 1, 1, 1)
 boot_splash/show_image=false
 boot_splash/fullsize=false
-config/icon="res://icon.svg"
+config/icon="res://icons/icon_1024.png"
+config/windows_native_icon="res://icons/ico.ico"
 
 [autoload]
 
