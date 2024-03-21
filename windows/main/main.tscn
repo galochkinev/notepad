@@ -49,11 +49,6 @@ item_2/text = "Новая"
 item_2/id = 2
 
 [node name="Справка" type="PopupMenu" parent="bg/header/menu"]
-item_count = 2
-item_0/text = "Открыть"
-item_0/id = 0
-item_1/text = "Новая"
-item_1/id = 1
 
 [node name="Выход" type="PopupMenu" parent="bg/header/menu"]
 hide_on_item_selection = false
@@ -151,6 +146,7 @@ text = "Отмена"
 metadata/_edit_use_anchors_ = true
 
 [connection signal="id_pressed" from="bg/header/menu/Записи" to="." method="_on_записи_id_pressed"]
+[connection signal="about_to_popup" from="bg/header/menu/Справка" to="." method="_on_справка_about_to_popup"]
 [connection signal="about_to_popup" from="bg/header/menu/Выход" to="." method="_on_выход_about_to_popup"]
 [connection signal="pressed" from="bg/panel_save_note/save" to="." method="_on_save_pressed"]
 [connection signal="pressed" from="bg/panel_save_note/cancel" to="." method="_on_cancel_pressed"]

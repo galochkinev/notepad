@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dlckw2o4whqk5"]
+[gd_scene load_steps=2 format=3 uid="uid://dlckw2o4whqk5"]
+
+[ext_resource type="Script" path="res://windows/help/help.gd" id="1_h3cqc"]
 
 [node name="Help" type="Control"]
 layout_mode = 3
@@ -7,6 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_h3cqc")
 
 [node name="bg" type="ColorRect" parent="."]
 layout_mode = 1
@@ -90,3 +93,5 @@ theme_override_font_sizes/font_size = 56
 text = "Версия: 1.0"
 autowrap_mode = 3
 metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="bg/header/menu/btn_exit" to="." method="_on_btn_exit_pressed"]

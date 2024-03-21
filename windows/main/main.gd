@@ -4,10 +4,11 @@ extends Control
 @onready var panel_save_note = $bg/panel_save_note
 var isDialogSaveOpened: bool = false
 
+
 func _ready():
 	panel_save_note.visible = false
 
-
+# КНОПКА ЗАПИСКИ
 func _on_записи_id_pressed(id):
 	match id:
 		0:
@@ -20,7 +21,9 @@ func _on_записи_id_pressed(id):
 		2:
 			# NEW
 			text.text = ''
-
+# КНОПКА СПРАВКА
+func _on_справка_about_to_popup():
+	get_tree().change_scene_to_file("res://windows/help/help.tscn")
 
 func _on_выход_about_to_popup():
 	get_tree().quit()
@@ -34,3 +37,6 @@ func _on_save_pressed():
 	SIN_FILE.add_note($bg/panel_save_note/code.text, $bg/text.text)
 	panel_save_note.visible = false
 	
+
+
+
