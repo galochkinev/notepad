@@ -10,8 +10,9 @@
 
 ## Релиз:
 >[!TIP]
->Готовый .EXE - [Ссылка](https://disk.yandex.ru/d/Yz86RTw6-y3H0A)
->Папка проекта для движка - [Ссылка](https://disk.yandex.ru/d/Yxpw89rUCv7REg)
+>Движок - [Ссылка](https://disk.yandex.ru/d/_527EYCcj3WPlQ)             
+>Готовый .EXE - [Ссылка](https://disk.yandex.ru/d/Yz86RTw6-y3H0A)                
+>Папка проекта для движка (Совпадает с содержимым этого репозитория) - [Ссылка](https://disk.yandex.ru/d/Yxpw89rUCv7REg)               
 
 # Бумажки:
 
