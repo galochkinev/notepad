@@ -124,7 +124,7 @@ placeholder_text = "Придумайте код записи"
 alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="open" type="Button" parent="bg/panel_save_note"]
+[node name="save" type="Button" parent="bg/panel_save_note"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.082391
@@ -152,3 +152,5 @@ metadata/_edit_use_anchors_ = true
 
 [connection signal="id_pressed" from="bg/header/menu/Записи" to="." method="_on_записи_id_pressed"]
 [connection signal="about_to_popup" from="bg/header/menu/Выход" to="." method="_on_выход_about_to_popup"]
+[connection signal="pressed" from="bg/panel_save_note/save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="bg/panel_save_note/cancel" to="." method="_on_cancel_pressed"]
