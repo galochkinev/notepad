@@ -17,6 +17,10 @@
 >ТЗ Никита - [Ссылка](https://disk.yandex.ru/i/bU8voe7V2WySFQ)             
 >ТЗ Галочкин - [Ссылка](https://disk.yandex.ru/i/RpOeCieaj9MgjA)             
 
+## Таблица Журавлёва (сюда надо записаться):
+>[!CAUTION]
+>https://docs.google.com/spreadsheets/d/1G-VK6KIkVJI3FEQM9a1B4rhNKLL47gshYHRU042HSBw/edit#gid=933206260
+
 ## Сравнение конкурентов:
 >[!CAUTION]
 >Бумага - Временно нету            
@@ -27,6 +31,3 @@
 >Руководство "Ведущего программиста" - Временно нету               
 >Руководство "UI дизайнера" - Временно нету               
 
-## Таблица Журавлёва (сюда надо записаться):
->[!CAUTION]
->https://docs.google.com/spreadsheets/d/1G-VK6KIkVJI3FEQM9a1B4rhNKLL47gshYHRU042HSBw/edit#gid=933206260
