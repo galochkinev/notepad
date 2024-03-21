@@ -51,3 +51,16 @@ grow_vertical = 2
 placeholder_text = "Код записки"
 alignment = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="code2" type="Button" parent="bg"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.441797
+anchor_top = 0.534028
+anchor_right = 0.558985
+anchor_bottom = 0.577083
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(154.5, 15.5002)
+text = "Открыть"
+metadata/_edit_use_anchors_ = true

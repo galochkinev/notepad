@@ -28,7 +28,7 @@ grow_horizontal = 2
 color = Color(0.0980392, 0.0980392, 0.0980392, 1)
 metadata/_edit_use_anchors_ = true
 
-[node name="menu" type="HBoxContainer" parent="bg/header"]
+[node name="menu" type="MenuBar" parent="bg/header"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -36,20 +36,26 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="btn_file" type="Button" parent="bg/header/menu"]
-layout_mode = 2
-focus_mode = 0
-text = "Записка"
+[node name="Записи" type="PopupMenu" parent="bg/header/menu"]
+item_count = 2
+item_0/text = "Открыть"
+item_0/id = 0
+item_1/text = "Новая"
+item_1/id = 1
 
-[node name="btn_info" type="Button" parent="bg/header/menu"]
-layout_mode = 2
-focus_mode = 0
-text = "Справка"
+[node name="Справка" type="PopupMenu" parent="bg/header/menu"]
+item_count = 2
+item_0/text = "Открыть"
+item_0/id = 0
+item_1/text = "Новая"
+item_1/id = 1
 
-[node name="btn_exit" type="Button" parent="bg/header/menu"]
-layout_mode = 2
-focus_mode = 0
-text = "Выход"
+[node name="Выход" type="PopupMenu" parent="bg/header/menu"]
+item_count = 2
+item_0/text = "Открыть"
+item_0/id = 0
+item_1/text = "Новая"
+item_1/id = 1
 
 [node name="text" type="TextEdit" parent="bg"]
 layout_mode = 1
