@@ -1,4 +1,6 @@
-# Секретный Блокнот
+# Секретный Блокнот - Zebrapad
+![image](https://github.com/galochkinev/notepad/assets/157801003/1b59dd68-7f61-4aee-92da-931e2a326f2e)
+
 ## Роли в команде:
 
 Галочкин - Тимлид/Тестировщик          
