@@ -70,6 +70,7 @@ placeholder_text = "Введите текст сюда"
 metadata/_edit_use_anchors_ = true
 
 [node name="panel_save_note" type="Panel" parent="bg"]
+visible = false
 custom_minimum_size = Vector2(250, 200)
 layout_mode = 1
 anchors_preset = -1
@@ -145,8 +146,86 @@ pivot_offset = Vector2(39.4022, 15.5485)
 text = "Отмена"
 metadata/_edit_use_anchors_ = true
 
+[node name="panel_load_note" type="Panel" parent="bg"]
+custom_minimum_size = Vector2(250, 200)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.402344
+anchor_top = 0.361111
+anchor_right = 0.597656
+anchor_bottom = 0.638889
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="title" type="Label" parent="bg/panel_load_note"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.025
+anchor_right = 1.0
+anchor_bottom = 0.185
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 23
+text = "Открытие записи"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="subtitle" type="Label" parent="bg/panel_load_note"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.195
+anchor_right = 1.0
+anchor_bottom = 0.37
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 11
+text = "Запись будет открыта как только вы впишите её код"
+horizontal_alignment = 1
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="code" type="LineEdit" parent="bg/panel_load_note"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0813954
+anchor_top = 0.486772
+anchor_right = 0.926357
+anchor_bottom = 0.641772
+grow_horizontal = 2
+grow_vertical = 2
+placeholder_text = "Придумайте код записи"
+alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="load" type="Button" parent="bg/panel_load_note"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.082391
+anchor_top = 0.777257
+anchor_right = 0.398391
+anchor_bottom = 0.932257
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(39.4022, 15.5485)
+text = "Ок"
+metadata/_edit_use_anchors_ = true
+
+[node name="cancel_load_dialog" type="Button" parent="bg/panel_load_note"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.614391
+anchor_top = 0.777257
+anchor_right = 0.930391
+anchor_bottom = 0.932257
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(39.4022, 15.5485)
+text = "Отмена"
+metadata/_edit_use_anchors_ = true
+
 [connection signal="id_pressed" from="bg/header/menu/Записи" to="." method="_on_записи_id_pressed"]
 [connection signal="about_to_popup" from="bg/header/menu/Справка" to="." method="_on_справка_about_to_popup"]
 [connection signal="about_to_popup" from="bg/header/menu/Выход" to="." method="_on_выход_about_to_popup"]
 [connection signal="pressed" from="bg/panel_save_note/save" to="." method="_on_save_pressed"]
 [connection signal="pressed" from="bg/panel_save_note/cancel" to="." method="_on_cancel_pressed"]
+[connection signal="pressed" from="bg/panel_load_note/load" to="." method="_on_load_pressed"]
+[connection signal="pressed" from="bg/panel_load_note/cancel_load_dialog" to="." method="_on_cancel_load_dialog_pressed"]

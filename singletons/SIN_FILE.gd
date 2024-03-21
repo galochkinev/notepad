@@ -22,6 +22,8 @@ func data_save():
 func data_exists():
 	return FileAccess.file_exists(work_path)
 
+
+
 func add_note(code: String, text: String):
 	var note: Dictionary = {
 		'code': code,
@@ -29,3 +31,10 @@ func add_note(code: String, text: String):
 	}
 	notes.append(note)
 	data_save()
+
+func get_note(code: String):
+	data_load()
+	for i in range(notes.size()):
+		if notes[i]['code'] == code:
+			return notes[i]['text']
+	return ''
