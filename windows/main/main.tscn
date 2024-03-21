@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cbqh8hrdq0qha"]
+[gd_scene load_steps=3 format=3 uid="uid://cbqh8hrdq0qha"]
+
+[ext_resource type="Script" path="res://windows/main/main.gd" id="1_orqep"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kbw8k"]
 
@@ -9,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_orqep")
 
 [node name="bg" type="ColorRect" parent="."]
 layout_mode = 1
@@ -37,11 +40,13 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Записи" type="PopupMenu" parent="bg/header/menu"]
-item_count = 2
-item_0/text = "Открыть"
+item_count = 3
+item_0/text = "Сохранить"
 item_0/id = 0
-item_1/text = "Новая"
+item_1/text = "Открыть"
 item_1/id = 1
+item_2/text = "Новая"
+item_2/id = 2
 
 [node name="Справка" type="PopupMenu" parent="bg/header/menu"]
 item_count = 2
@@ -51,11 +56,8 @@ item_1/text = "Новая"
 item_1/id = 1
 
 [node name="Выход" type="PopupMenu" parent="bg/header/menu"]
-item_count = 2
-item_0/text = "Открыть"
-item_0/id = 0
-item_1/text = "Новая"
-item_1/id = 1
+hide_on_item_selection = false
+hide_on_checkable_item_selection = false
 
 [node name="text" type="TextEdit" parent="bg"]
 layout_mode = 1
@@ -71,3 +73,6 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_kbw8k")
 theme_override_styles/read_only = SubResource("StyleBoxEmpty_kbw8k")
 placeholder_text = "Введите текст сюда"
 metadata/_edit_use_anchors_ = true
+
+[connection signal="id_pressed" from="bg/header/menu/Записи" to="." method="_on_записи_id_pressed"]
+[connection signal="about_to_popup" from="bg/header/menu/Выход" to="." method="_on_выход_about_to_popup"]
