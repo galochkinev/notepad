@@ -38,6 +38,7 @@ func _on_записи_id_pressed(id):
 func _on_справка_about_to_popup():
 	get_tree().change_scene_to_file("res://windows/help/help.tscn")
 
+
 func _on_выход_about_to_popup():
 	get_tree().quit()
 
@@ -49,13 +50,13 @@ func _on_cancel_pressed():
 func _on_save_pressed():
 	SIN_FILE.add_note($bg/panel_save_note/code.text, $bg/text.text)
 	panel_save_note.visible = false
-	
-
+	isDialogSaveOpened = false
 
 
 func _on_load_pressed():
 	$bg/text.text = SIN_FILE.get_note($bg/panel_load_note/code.text)
 	panel_load_note.visible = false
+	isDialogLoadOpened = false
 
 
 func _on_cancel_load_dialog_pressed():
