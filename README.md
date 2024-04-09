@@ -19,9 +19,9 @@
 ## Технические задания
 
 >[!TIP]
->ТЗ Саакян - [Ссылка](https://disk.yandex.ru/i/XCZiyu-AaswEhQ)           
->ТЗ Никита - [Ссылка](https://disk.yandex.ru/i/bU8voe7V2WySFQ)             
->ТЗ Галочкин - [Ссылка](https://disk.yandex.ru/i/RpOeCieaj9MgjA)             
+>ТЗ Саакян - [Ссылка](https://disk.yandex.ru/i/fV6u5CcSOcwI0Q)              
+>ТЗ Никита - [Ссылка](https://disk.yandex.ru/i/YRMXX971PAU8mQ)             
+>ТЗ Галочкин - [Ссылка](https://disk.yandex.ru/i/EqsxLI0mkuIoTA)             
 
 ## Таблица Журавлёва (сюда надо записаться):
 >[!CAUTION]
@@ -34,6 +34,6 @@
 ## Руководства:
 >[!CAUTION]
 >Руководство "Тестировщика" - Временно нету              
->Руководство "Ведущего программиста" - Временно нету               
->Руководство "UI дизайнера" - Временно нету               
+>Руководство "Ведущего программиста" - [Ссылка](https://disk.yandex.ru/i/3L-dMeC9Hd7u7g)               
+>Руководство "UI дизайнера" - [Ссылка](https://disk.yandex.ru/i/ot2mdH8_1IYQ6Q)               
 
