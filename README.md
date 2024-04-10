@@ -24,16 +24,16 @@
 >ТЗ Галочкин - [Ссылка](https://disk.yandex.ru/i/EqsxLI0mkuIoTA)             
 
 ## Таблица Журавлёва (сюда надо записаться):
->[!CAUTION]
+>[!TIP]
 >https://docs.google.com/spreadsheets/d/1G-VK6KIkVJI3FEQM9a1B4rhNKLL47gshYHRU042HSBw/edit#gid=933206260
 
 ## Сравнение конкурентов:
->[!CAUTION]
->Бумага - Временно нету            
+>[!TIP]
+>Бумага - [Ссылка](https://disk.yandex.ru/d/YH32HTnY3ld7EA)                 
 
 ## Руководства:
->[!CAUTION]
->Руководство "Тестировщика" - Временно нету              
+>[!TIP]
+>Руководство "Тестировщика" - [Ссылка](https://disk.yandex.ru/d/lqkZ0MG5q7nGBw)              
 >Руководство "Ведущего программиста" - [Ссылка](https://disk.yandex.ru/i/3L-dMeC9Hd7u7g)               
 >Руководство "UI дизайнера" - [Ссылка](https://disk.yandex.ru/i/ot2mdH8_1IYQ6Q)               
 
